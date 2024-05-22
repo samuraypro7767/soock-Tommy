@@ -1,0 +1,287 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+@font-face {
+    font-family: fuente1;
+    src: url('../fuentes/RubikWetPaint-Regular.ttf');
+  }
+  
+@font-face {
+    font-family: fuente2;
+    src: url('../fuentes/Catchye.otf');
+  }
+  @font-face {
+    font-family: fuente3;
+    src: url('../fuentes/A\ Calling\ Font_D\ by\ 7NTypes.otf');
+  }
+
+h1{
+    text-align: center;
+    width: 100%;
+    display:block;
+    margin: auto;
+    padding: 6px 8px;
+    background-color: rgb(0, 0, 0) ;
+    border-radius: 3px;
+    margin-top: 2px;
+   color: #5df008;
+   font-family: fuente1;
+   font-weight: 300;
+   border-radius:5px ;
+}
+.fondop1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../img/fondonoso.jpg'); 
+  box-shadow: rgba(0,0, 0, .6);
+  background-size: cover;
+  background-position: center;
+} 
+.fondop2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../img/fondo6.jpg'); 
+  box-shadow: rgba(0,0, 0, .6);
+  background-size: cover;
+  background-position: center; 
+}
+.fondo-productos{
+  background-image: url(../img/fondo-index.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+table{
+    background-color: #000000b0;
+    text-align: center;
+    width: 70%;
+    border-collapse: collapse;
+    margin:40px 60px;
+    color: white;
+    left: 1%;
+    position: relative;
+    border: 1px solid  #fff7f7;
+    font-size: 18px;
+}
+ th,td{
+    padding: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  
+
+   
+}
+
+
+thead{
+    background-color: #000000;
+    border-bottom:solid 5px #5df008;
+    color: #5df008;
+    font-size: 20px;
+    border: 1px solid  #ffffff;
+    text-align: center;   
+    width: 80%; 
+    font-family: fuente2;
+    font-weight: 100;
+    
+}
+.edicion:link, .edicion:visited{
+    margin:3px 60px;
+    background-color:#000000 !important;
+    color:#5df008 !important;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:5px;
+    border: 1px solid grid;
+ 
+}
+.edicion:hover, .edicion:active {
+    background-color:black ;
+    color: white !important;
+   
+}
+
+/* agregar */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="password"]{
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+  border: 1 px solid black;
+  margin-left: 2rem;
+}
+
+.button0{
+    width: 8rem;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 16px;
+    background: #000000;
+    min-height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.836);
+    
+  }
+  .button0:hover{
+    background: #5df008;
+
+  }
+  .button0 a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+  }
+ 
+
+  @media(max-width:767px){
+    .formulario{
+      margin: auto;
+      width: 500px;
+      margin-top: 90px;
+      border-radius: 2%;
+    
+
+    }
+
+
+  }
+
+  @media(min-width:768px) and (max-width:990px){
+    .formulario{
+      margin: auto;
+      width: 500px;
+      margin-top: 90px;
+      border-radius: 2%;
+    
+
+    }
+
+  }
+
+  @media(min-width:991px){
+    .formulario{
+      margin: auto;
+      width: 500px;
+      margin-top: 90px;
+      border-radius: 2%;
+      
+
+    }
+
+  }
+  .h2{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+  }
+  .fondoagregar1{
+    background-image: url(../img/fondonoso.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  }
+  #botones-pocision{
+    display: flex;
+    padding: 0 10px;
+  }
+  .button{
+    border: gray;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 15px;
+    background-color: #000000;
+    
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  .button1{
+    border: gray;
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 15px;
+    background-color: #000000;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+  }
+  .formulario-inicio{
+   display: flex;
+    width: 90%;
+    height: 2rem;
+    
+  }
+
+  .tabla-buscar{
+    position: absolute;
+    top:  40%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .input-contenedor{
+    margin-bottom: 8px;
+   
+
+  }
+  .contenedor{
+    width: 100%;
+    padding: 15px;
+    background-color:#000000c9 ;
+    border-radius: 5px;
+    color: #5df008c9;
+
+  }
+  #buscador{
+    display: flex;
+    justify-content:space-around;
+  }
+  #buscardor{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+  }
+ .buscardor{
+  margin-top:30px ;
+  margin-left:30px ;
+ }
+ .titulo-h1{
+  width: 50%;
+ }
+ #desc_prod{
+  padding: 5px 10px;
+  position: relative;
+  left: 7%;
+  font-size: 16px;
+ }
+ #desc_prod::placeholder{
+
+  font-size: 19px;
+  color: #5df008;
+ }
+ 
+ .salida {
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+ 
+ }
+
+ .salida img{
+  border: 3px solid #5df008;
+  border-radius:10px;
+ }
